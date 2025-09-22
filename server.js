@@ -65,7 +65,7 @@ app.post("/chat", async (req, res) => {
           Important context from the conversation: ${JSON.stringify(recentMessages)}
           
           Guidelines:
-          1. If they're positive/ready to join: Send the end message exactly like this: "Awesome, It’s quite simple, just access our Bullman telegram support, fill in your details, and our team will connect with you soon. \n Click this link to access our telegramsupport  and join our free channel:https://t.me/bullmansupport_bot" 
+          1. If they're positive/ready to join: Send this exact and full message exactly like this: "Awesome, It’s quite simple, just access our Bullman telegram support, fill in your details, and our team will connect with you soon. \n Click this link to access our telegramsupport  and join our free channel:https://t.me/bullmansupport_bot" 
           2. If they're asking questions: Answer helpfully, highlight benefits
           3. If they're confused: Clarify simply, ask if they need more explanation
           4. If they're negative: Be polite and leave door open
@@ -103,5 +103,6 @@ app.post("/chat", async (req, res) => {
     });
   }
 });
+
 
 app.listen(3000, () => console.log("Bot running on port 3000"));

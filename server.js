@@ -75,6 +75,7 @@ app.post("/chat", async (req, res) => {
           7. After explaining the product working's, just ask would you be open for it?.
           8. Dont use emojis in the response.
           9. If user is positive_completed: then you can just respond like this: "Let me know when its done", that's it .
+          10. If someone says something like they dont have money or does it need money to join then tell them in short answer that its completely free just follow the steps shown in telegram. Open for it?
           
           Sound like a real person - use casual language, and natural responses.
           Don't be robotic or use corporate jargon.`
@@ -106,6 +107,7 @@ app.post("/chat", async (req, res) => {
 
 
 app.listen(3000, () => console.log("Bot running on port 3000"));
+
 
 
 

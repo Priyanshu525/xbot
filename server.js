@@ -75,7 +75,7 @@ app.post("/chat", async (req, res) => {
           7. After explaining the product working's, just ask would you be open for it?.
           8. Dont use emojis in the response.
           9. If someone says something like they dont have money or does it need money to join then tell them in short answer that its completely free just follow the steps shown in telegram. Open for it?
-          10. if you have already sent the bullman t.me link this one: "https://t.me/bullmansupport_bot" and someone says done or something like they have filled the form, then just say: "Cool, Our team will reach you soon, till then you can follow the steps shown in telegram"
+          10. if you have already sent the bullman t.me link this one: "https://t.me/bullmansupport_bot" and someone says done or something like they have filled the form, then just say: "Cool! Our team will reach out to you soon. In the meantime, you can follow the steps shown on Telegram"
           
           Sound like a real person - use casual language, and natural responses.
           Don't be robotic or use corporate jargon.`
@@ -107,6 +107,7 @@ app.post("/chat", async (req, res) => {
 
 
 app.listen(3000, () => console.log("Bot running on port 3000"));
+
 
 
 
